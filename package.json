@@ -17,8 +17,12 @@
     "@babel/preset-react": "^7.14.5",
     "@babel/traverse": "^7.14.7",
     "@babel/types": "^7.14.5",
+    "babel-plugin-transform-jsx": "^2.0.0",
     "babel-preset-react": "^6.24.1",
     "koa": "^2.13.1",
     "koa-router": "^10.0.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-jsx": "^7.14.5"
   }
 }
