@@ -17,7 +17,7 @@ router.get('/changeData', async (ctx, next) => {
     const data = fs.readFileSync('E:/20201111/Gitlab/testnode/src/pc/views/aboutUs/studentHonor.js', 'utf-8')
     const regex = /title:.?".*",/
 
-    const str = data.replace(regex, 'title: "nodejs改变",');
+    const str = data.replace(regex, 'title: "nodejs再次改变",');
 
     fs.writeFileSync('E:/20201111/Gitlab/testnode/src/pc/views/aboutUs/studentHonor.js', str, 'utf8');
 
